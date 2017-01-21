@@ -13,8 +13,8 @@ describe('App component', function() {
         const renderer = TestUtils.createRenderer(); //create an instance of the renderer
         renderer.render(<App />);
         const result = renderer.getRenderOutput(); //This returns the rendered React component. Using this you can check out the type and props of the elements rendered by your component.
-        // result.props.className.should.equal('card-content');
-        result.type.should.equal('h1');
+        result.props.className.should.equal('app-container');
+        result.type.should.equal('div');
 
     });
 });
