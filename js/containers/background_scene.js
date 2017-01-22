@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Video from '../components/video';
+import SoundCloud from '../components/soundcloud';
 
 export class BackgroundScene extends Component {
   render() {
@@ -10,7 +11,10 @@ export class BackgroundScene extends Component {
 
     else if(this.props.scene.title === 'Introspection') {
       return (
-        <Video url={this.props.scene.url} />
+        <div>
+          <Video url={this.props.scene.url} />
+          <SoundCloud />
+        </div>
       )
     }
 
