@@ -8,6 +8,7 @@ export class SceneList extends Component {
     return this.props.scenes.map((scene, index) => {
       return (
         <li
+          className="scene-list"
           onClick={() => this.props.selectScene(scene)}
           key={index}>{scene.title}</li>
       );
