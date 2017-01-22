@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectScene } from '../actions/index';
 import { bindActionCreators } from 'redux';
+import $ from 'jquery';
 
 export class SceneList extends Component {
   renderScenes() {
@@ -23,6 +24,11 @@ export class SceneList extends Component {
     )
   }
 }
+
+$('.scene-list').click(function(event) {
+  alert('hi');
+})
+
 
 function mapStateToProps(state) {
   return {
