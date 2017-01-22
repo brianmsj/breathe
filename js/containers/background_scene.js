@@ -3,8 +3,15 @@ import { connect } from 'react-redux';
 
 export class BackgroundScene extends Component {
   render() {
+    if(!this.props.scene) {
+      return <div>Select a scene to get started.</div>
+    }
+
     return (
-      <div>Scene shows here</div>
+      <div>
+        <h3>Details for:</h3>
+        <div>{this.props.scene.title}</div>
+      </div>
     )
   }
 }
