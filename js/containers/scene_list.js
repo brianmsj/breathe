@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { selectScene } from '../actions/index';
+import { bindActionCreators } from 'redux';
 
 export class SceneList extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   renderScenes() {
     return this.props.scenes.map((scene, index) => {
       return (
-        <li key={index}>{scene.title}</li>
+        <li
+          onClick={() => this.props.selectScene(scene)}
+          key={index}>{scene.title}</li>
       );
     });
   }
@@ -24,9 +24,13 @@ export class SceneList extends Component {
 }
 
 function mapStateToProps(state) {
-  return (
+  return {
     scenes: state.scenes
-  );
+  };
 }
 
-export default connect(mapStateToProps)(SceneList);
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({selectScene: selectScene}, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SceneList);
