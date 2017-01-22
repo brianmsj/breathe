@@ -3,7 +3,13 @@ import React from 'react';
 export default function App() {
   return (
     <div className="app-container">
-      <h1>HAPPINESS IS</h1>
+      <div className="video-background">
+        <div className="video-foreground">
+          <iframe src="https://www.youtube.com/embed/W1-wSw2tW_w?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W1-wSw2tW_w"
+                  frameBorder="0"
+                  allowFullScreen></iframe>
+        </div>
+      </div>
     </div>
   )
 }

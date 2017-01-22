@@ -16,8 +16,8 @@ describe('App component', function() {
         result.props.className.should.equal('app-container');
         result.type.should.equal('div');
 
-        const hello = result.props.children;
-        hello.type.should.equal('h1');
+        // const hello = result.props.children;
+        // hello.type.should.equal('h1');
 
     });
 });
