@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function App() {
+export default function IntrospectionVideo() {
   return (
     <div className="app-container">
       <div className="video-background">
