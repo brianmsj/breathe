@@ -5,7 +5,7 @@ import BackgroundScene from '../containers/background_scene';
 
 export default function App() {
   return (
-    <div>
+    <div className="app-container">
       <SceneList />
       <BackgroundScene />
     </div>

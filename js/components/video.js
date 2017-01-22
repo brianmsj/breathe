@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Video(props) {
   return (
-    <div className="app-container">
+    <div className="video-container">
       <div className="video-background">
         <div className="video-foreground">
           <iframe src={props.url}
