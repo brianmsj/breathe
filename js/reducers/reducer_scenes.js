@@ -2,7 +2,7 @@ export default function() {
   return [
     {
       title: 'Introspection',
-      url: 'https://www.youtube.com/embed/W1-wSw2tW_w?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W1-wSw2tW_w'
+      url: 'https://www.youtube.com/embed/wPOX3lEpXDU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=wPOX3lEpXDU'
     },
     {
       title: 'Halcyon',
