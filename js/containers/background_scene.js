@@ -12,21 +12,24 @@ export class BackgroundScene extends Component {
     else if(this.props.scene.title === 'Introspection') {
       return (
         <div>
-          <Video url={this.props.scene.url} />
-          <SoundCloud />
+          <Video url={this.props.scene.youTubeURL} />
+          <SoundCloud id={this.props.scene.soundCloudID} />
         </div>
       )
     }
 
     else if(this.props.scene.title === 'Halcyon') {
       return (
-        <Video url={this.props.scene.url} />
+        <div>
+          <Video url={this.props.scene.youTubeURL} />
+          <SoundCloud id={this.props.scene.soundCloudID} />
+        </div>
       )
     }
 
     else if(this.props.scene.title === 'Breathe') {
       return (
-        <Video url={this.props.scene.url} />
+        <Video url={this.props.scene.youTubeURL} />
       )
     }
 

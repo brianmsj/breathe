@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 function SoundCloudEmbed(props) {
   const playerURL = 'https://w.soundcloud.com/player/?';
-  const trackURL = 'url=https%3A//api.soundcloud.com/tracks/303750328&amp;';
+  const trackURL = `url=https%3A//api.soundcloud.com/tracks/${props.id}&amp;`;
   const options = 'color=43a1ff&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false';
   const src = `${playerURL}${trackURL}${options}`;
 
@@ -34,7 +34,7 @@ export default class SoundCloud extends React.Component {
   render() {
     return (
       <div className="soundcloud">
-        <SoundCloudEmbed />
+        <SoundCloudEmbed id={this.props.id}/>
       </div>
       );
   }
