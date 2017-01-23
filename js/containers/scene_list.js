@@ -16,6 +16,26 @@ export class SceneList extends Component {
     });
   }
 
+   componentDidMount() {
+      let timedelay = 1;
+      function delayCheck() {
+        if(timedelay == 5) {
+          $('.scene-list').fadeOut();
+          timedelay = 1;
+        }
+        timedelay = timedelay + 1;
+      }
+       
+      $(document).mousemove(function() {
+        $('.scene-list').fadeIn();
+        timedelay = 1;
+        clearInterval(_delay);
+         _delay = setInterval(delayCheck, 500);
+      });
+      // page loads starts delay timer
+       let _delay = setInterval(delayCheck, 500)
+   }
+
   render() {
     return (
       <ul>
