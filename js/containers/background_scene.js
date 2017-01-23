@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Video from '../components/video';
 import SoundCloud from '../components/soundcloud';
+import SceneTitle from '../components/scene_title';
 
 export class BackgroundScene extends Component {
   render() {
@@ -9,32 +10,13 @@ export class BackgroundScene extends Component {
       return <div>Select a scene to get started.</div>
     }
 
-    else if(this.props.scene.title === 'Introspection') {
-      return (
-        <div>
-          <Video url={this.props.scene.youTubeURL} />
-          <SoundCloud id={this.props.scene.soundCloudID} />
-        </div>
-      )
-    }
-
-    else if(this.props.scene.title === 'Halcyon') {
-      return (
-        <div>
-          <Video url={this.props.scene.youTubeURL} />
-          <SoundCloud id={this.props.scene.soundCloudID} />
-        </div>
-      )
-    }
-
-    else if(this.props.scene.title === 'Breathe') {
-      return (
-        <div>
-          <Video url={this.props.scene.youTubeURL} />
-          <SoundCloud id={this.props.scene.soundCloudID} />
-        </div>
-      )
-    }
+    return (
+      <div>
+        <SceneTitle title={this.props.scene.title}/>
+        <Video url={this.props.scene.youTubeURL} />
+        <SoundCloud id={this.props.scene.soundCloudID} />
+      </div>
+    )
 
   }
 }
