@@ -5,7 +5,7 @@ const initialState = {
   image: 'http://i.imgur.com/HWRqyNg.jpg'
 }
 
-export default function(state = initialState, action) {
+export default function(state = null, action) {
   switch(action.type) {
     case 'SCENE_SELECTED':
       return action.payload;
