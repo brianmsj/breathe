@@ -11,24 +11,36 @@ function SoundCloudEmbed(props) {
 }
 
 export default class SoundCloud extends React.Component {
+  //http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery
   componentDidMount() {
-     let timedelay = 1;
-     function delayCheck() {
-       if(timedelay == 5) {
-         $('.soundcloud').fadeOut();
-         timedelay = 1;
-       }
-       timedelay = timedelay + 1;
-     }
-// http://theonlytutorials.com/hide-div-mouse-inactive-5-seconds-show-mouse-active/
-     $(document).mousemove(function() {
-       $('.soundcloud').fadeIn();
-       timedelay = 1;
-       clearInterval(_delay);
-        _delay = setInterval(delayCheck, 300);
+     $(function () {
+         var timer;
+         var fadeInBuffer = false;
+         $(document).mousemove(function () {
+             if (!fadeInBuffer) {
+                 if (timer) {
+                     clearTimeout(timer);
+                     timer = 0;
+                 }
+
+                 $('.soundcloud').fadeIn();
+                 $('html').css({
+                     cursor: ''
+                 });
+             } else {
+                 fadeInBuffer = false;
+             }
+
+
+             timer = setTimeout(function () {
+                 $('.soundcloud').fadeOut()
+                 $('html').css({
+                     cursor: 'none'
+                 });
+                 fadeInBuffer = true;
+             }, 2000)
+         });
      });
-     // page loads starts delay timer
-      let _delay = setInterval(delayCheck, 300)
   }
 
   render() {
