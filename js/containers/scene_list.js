@@ -51,6 +51,7 @@ export class SceneList extends Component {
     return (
       <ul className="scene-list">
         {this.renderScenes()}
+        <button>test</button>
       </ul>
     )
   }
