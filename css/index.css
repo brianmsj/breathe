@@ -68,3 +68,7 @@ li {
   text-shadow: 1px 1px 10px #ffffff;
   font-family: 'Raleway', sans-serif;
 }
+
+.guided-meditation-title {
+  text-align: center;
+}
