@@ -14,7 +14,8 @@ export default function() {
     },
     {
       title: 'Breathe',
-      youTubeURL: 'https://www.youtube.com/embed/CNYB5Ol489U?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=CNYB5Ol489U',
+      youTubeURL: 'https://www.youtube.com/embed/Y5aaIsxLrvE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Y5aaIsxLrvE',
+      soundCloudID: '304136606',
       image: 'http://i.imgur.com/CV63WkA.jpg?1'
     }
   ]

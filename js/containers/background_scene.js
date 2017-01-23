@@ -29,7 +29,10 @@ export class BackgroundScene extends Component {
 
     else if(this.props.scene.title === 'Breathe') {
       return (
-        <Video url={this.props.scene.youTubeURL} />
+        <div>
+          <Video url={this.props.scene.youTubeURL} />
+          <SoundCloud id={this.props.scene.soundCloudID} />
+        </div>
       )
     }
 
