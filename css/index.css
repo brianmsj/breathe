@@ -1,4 +1,6 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 .video-background {
   background: #000;
   position: fixed;
@@ -20,4 +22,14 @@
 }
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
+}
+
+.scene-list:hover {
+  cursor: pointer;
+}
+
+.soundcloud {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
