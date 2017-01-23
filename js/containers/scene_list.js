@@ -10,7 +10,7 @@ export class SceneList extends Component {
       return (
         <li
           onClick={() => this.props.selectScene(scene)}
-          key={index}>{scene.title}</li>
+          key={index}><img src={scene.image} className="image" /></li>
       );
     });
   }
