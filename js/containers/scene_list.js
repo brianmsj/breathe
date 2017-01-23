@@ -30,10 +30,10 @@ export class SceneList extends Component {
         $('.scene-list').fadeIn();
         timedelay = 1;
         clearInterval(_delay);
-         _delay = setInterval(delayCheck, 500);
+         _delay = setInterval(delayCheck, 300);
       });
       // page loads starts delay timer
-       let _delay = setInterval(delayCheck, 500)
+       let _delay = setInterval(delayCheck, 300)
    }
 
   render() {

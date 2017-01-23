@@ -6,7 +6,7 @@ export default function() {
     },
     {
       title: 'Halcyon',
-      url: 'https://www.youtube.com/embed/GyRF2VYrUDs?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=GyRF2VYrUDs'
+      url: 'https://www.youtube.com/embed/ZdgM6r1paHY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=ZdgM6r1paHY'
     },
     {
       title: 'Breathe',
