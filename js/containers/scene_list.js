@@ -10,41 +10,37 @@ export class SceneList extends Component {
       return (
         <li
           onClick={() => this.props.selectScene(scene)}
-          key={index}>{scene.title}</li>
+          key={index}><img src={scene.image} className="image" /></li>
       );
     });
   }
 
   //http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery
   componentDidMount() {
-     $(function () {
-         var timer;
-         var fadeInBuffer = false;
-         $(document).mousemove(function () {
-             if (!fadeInBuffer) {
-                 if (timer) {
-                     clearTimeout(timer);
-                     timer = 0;
-                 }
+    $(function () {
+      var timer;
+      var fadeInBuffer = false;
+      $(document).mousemove(function () {
+        if (!fadeInBuffer) {
+          if (timer) {
+            clearTimeout(timer);
+            timer = 0;
+          }
+          $('.scene-list').fadeIn();
+          $('html').css({cursor: ''});
+        }
 
-                 $('.scene-list').fadeIn();
-                 $('html').css({
-                     cursor: ''
-                 });
-             } else {
-                 fadeInBuffer = false;
-             }
+        else {
+          fadeInBuffer = false;
+        }
 
-
-             timer = setTimeout(function () {
-                 $('.scene-list').fadeOut()
-                 $('html').css({
-                     cursor: 'none'
-                 });
-                 fadeInBuffer = true;
-             }, 2000)
-         });
-     });
+        timer = setTimeout(function () {
+          $('.scene-list').fadeOut()
+          $('html').css({cursor: 'none'});
+          fadeInBuffer = true;
+        }, 2000)
+      });
+    });
   }
 
   render() {
