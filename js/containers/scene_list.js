@@ -25,11 +25,7 @@ export class SceneList extends Component {
         }
         timedelay = timedelay + 1;
       }
-<<<<<<< HEAD
 
-=======
-       
->>>>>>> 2d9f4837bf61e9c7f44513f039742f0396714d80
       $(document).mousemove(function() {
         $('.scene-list').fadeIn();
         timedelay = 1;
