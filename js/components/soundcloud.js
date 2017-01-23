@@ -20,11 +20,7 @@ export default class SoundCloud extends React.Component {
        }
        timedelay = timedelay + 1;
      }
-<<<<<<< HEAD
-
-=======
-      
->>>>>>> 2d9f4837bf61e9c7f44513f039742f0396714d80
+// http://theonlytutorials.com/hide-div-mouse-inactive-5-seconds-show-mouse-active/
      $(document).mousemove(function() {
        $('.soundcloud').fadeIn();
        timedelay = 1;
