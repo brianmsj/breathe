@@ -30,8 +30,8 @@
 
 .soundcloud {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .soundcloud:hover {
@@ -67,8 +67,4 @@ li {
   color: white;
   text-shadow: 1px 1px 10px #ffffff;
   font-family: 'Raleway', sans-serif;
-}
-
-.guided-meditation-title {
-  text-align: center;
 }
