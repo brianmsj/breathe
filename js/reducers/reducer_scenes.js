@@ -20,7 +20,10 @@ export default function() {
     },
     {
       title: 'Guided Meditation',
-      image: 'http://i.imgur.com/4U23nt9.jpg'
+      youTubeURL: 'https://www.youtube.com/embed/yxi-W_0ES0k?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=yxi-W_0ES0k',
+      soundCloudID: '304341455',
+      image: 'http://i.imgur.com/mP5Dywm.jpg?1'
     }
   ]
 }
+
