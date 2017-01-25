@@ -98,9 +98,6 @@ li {
   margin-left: 200px;
 }
 
-.viewport-message {
-  display: none;
-}
 
 @media only screen and (max-width: 600px) {
   .main-container {
