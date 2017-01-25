@@ -11,7 +11,8 @@ function SoundCloudEmbed(props) {
 }
 
 export default class SoundCloud extends React.Component {
-  //http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery
+  // http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery
+  // removed excess variables
   componentDidMount() {
     $(function () {
       let timer;
