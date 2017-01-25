@@ -7,7 +7,7 @@ import Mobile from './mobile';
 export default class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main-container">
         <div className="app-container">
           <SceneList />
           <BackgroundScene />

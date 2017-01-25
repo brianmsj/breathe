@@ -8,11 +8,10 @@ import App from '../js/components/app';
 
 describe('App component', function() {
     it('Renders other components and containers',  function() {
-
         const renderer = TestUtils.createRenderer();
         renderer.render(<App />);
         const result = renderer.getRenderOutput();
         result.type.should.equal('div');
-        result.props.className.should.equal('app-container');
+        result.props.className.should.equal('main-container');
     });
 });
