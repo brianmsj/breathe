@@ -2,7 +2,6 @@ import React from 'react';
 import SceneList from '../containers/scene_list';
 import BackgroundScene from '../containers/background_scene';
 import Welcome from './welcome';
-import ViewportMessage from './viewport_message';
 
 export default function App() {
   return (
@@ -12,7 +11,6 @@ export default function App() {
         <BackgroundScene />
         <Welcome />
       </div>
-      <ViewportMessage />
     </div>
   )
 }
