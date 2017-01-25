@@ -51,6 +51,7 @@ ul {
   float: right;
   height: 100%;
   margin-right: 20px;
+  display: inline-block;
 }
 
 li {
@@ -75,10 +76,19 @@ li {
   text-shadow: 1px 1px 10px #ffffff;
 }
 
+.welcome-h1 {
+  font-size: 50px;
+}
+
+.welcome-p {
+  font-size: 24px;
+}
+
 .breathe {
   font-weight: bold;
 }
 
 .welcome-container {
   text-align: center;
+  margin-left: 200px;
 }
