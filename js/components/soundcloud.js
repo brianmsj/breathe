@@ -14,27 +14,19 @@ export default class SoundCloud extends React.Component {
   //http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery
   componentDidMount() {
     $(function () {
-      var timer;
-      var fadeInBuffer = false;
-      $(document).mousemove(function () {
-        if (!fadeInBuffer) {
-          if (timer) {
-            clearTimeout(timer);
-            timer = 0;
-          }
+      let timer;
 
+      $(document).mousemove(function () {
+        if (timer) {
+          clearTimeout(timer);
+          timer = 0;
           $('.soundcloud').fadeIn();
           $('html').css({cursor: ''});
-        }
-
-        else {
-          fadeInBuffer = false;
         }
 
         timer = setTimeout(function () {
           $('.soundcloud').fadeOut()
           $('html').css({cursor: 'none'});
-          fadeInBuffer = true;
         }, 5000)
       });
     });

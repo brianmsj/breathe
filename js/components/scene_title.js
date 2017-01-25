@@ -4,31 +4,21 @@ import $ from 'jquery';
 export default class SceneTitle extends Component {
   componentDidMount() {
     $(function () {
-      var timer;
-      var fadeInBuffer = false;
+      let timer;
+
       $(document).mousemove(function () {
-        if (!fadeInBuffer) {
-          if (timer) {
-            clearTimeout(timer);
-            timer = 0;
-          }
-
+        if (timer) {
+          clearTimeout(timer);
+          timer = 0;
           $('.scene-title').fadeIn();
-          $('html').css({cursor: ''});
-        }
-
-        else {
-          fadeInBuffer = false;
         }
 
         timer = setTimeout(function () {
           $('.scene-title').fadeOut()
-          $('html').css({cursor: 'none'});
-          fadeInBuffer = true;
         }, 5000)
       });
     });
-  };
+  }
 
   render() {
     return (

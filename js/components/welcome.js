@@ -4,24 +4,17 @@ import $ from 'jquery';
 export default class Welcome extends Component {
   componentDidMount() {
     $(function () {
-      var timer;
-      var fadeInBuffer = false;
-      $(document).mousemove(function () {
-        if (!fadeInBuffer) {
-          if (timer) {
-            clearTimeout(timer);
-            timer = 0;
-          }
-          $('.welcome-container').fadeIn();
-        }
+      let timer;
 
-        else {
-          fadeInBuffer = false;
+      $(document).mousemove(function () {
+        if (timer) {
+          clearTimeout(timer);
+          timer = 0;
+          $('.welcome-container').fadeIn();
         }
 
         timer = setTimeout(function () {
           $('.welcome-container').fadeOut()
-          fadeInBuffer = true;
         }, 5000)
       });
     });
