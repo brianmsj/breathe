@@ -13,7 +13,7 @@ export class BackgroundScene extends Component {
     return (
       <div>
         <SceneTitle title={this.props.scene.title}/>
-        <Video url={this.props.scene.youTubeURL} />
+        <Video url={this.props.scene.videoID} />
         <SoundCloud id={this.props.scene.soundCloudID} />
       </div>
     )
