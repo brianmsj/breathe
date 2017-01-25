@@ -14,6 +14,5 @@ describe('App component', function() {
         const result = renderer.getRenderOutput();
         result.type.should.equal('div');
         result.props.className.should.equal('app-container');
-        result.props.children.length.should.equal(3);
     });
 });
