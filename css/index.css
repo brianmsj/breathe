@@ -71,4 +71,10 @@ li {
 
 .welcome {
   font-weight: normal;
+  color: white;
+  text-shadow: 1px 1px 10px #ffffff;
+}
+
+.breathe {
+  font-weight: bold;
 }
