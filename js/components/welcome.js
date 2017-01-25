@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 export default class Welcome extends Component {
   componentDidMount() {
@@ -12,7 +13,6 @@ export default class Welcome extends Component {
             timer = 0;
           }
           $('.welcome-container').fadeIn();
-          $('html').css({cursor: ''});
         }
 
         else {
@@ -21,7 +21,6 @@ export default class Welcome extends Component {
 
         timer = setTimeout(function () {
           $('.welcome-container').fadeOut()
-          $('html').css({cursor: 'none'});
           fadeInBuffer = true;
         }, 5000)
       });
