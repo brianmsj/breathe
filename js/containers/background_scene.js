@@ -6,18 +6,13 @@ import SceneTitle from '../components/scene_title';
 
 export class BackgroundScene extends Component {
   render() {
-    if(!this.props.scene) {
-      return <div>Select a scene to get started.</div>
-    }
-
     return (
       <div>
         <SceneTitle title={this.props.scene.title}/>
-        <Video url={this.props.scene.youTubeURL} />
+        <Video url={this.props.scene.videoID} />
         <SoundCloud id={this.props.scene.soundCloudID} />
       </div>
     )
-
   }
 }
 
