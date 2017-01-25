@@ -106,5 +106,23 @@ li {
 
   .viewport-message {
     display: block;
+    padding: 15px 25px;
+    position: relative;
+    top: 50%;
+    /*transform: translateY(-50%);*/
+  }
+
+  .viewport-message h1 {
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 10px #ffffff;
+  }
+
+  html {
+    background: url(http://i.imgur.com/Bcsp2Jn.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
