@@ -30,8 +30,8 @@
 
 .soundcloud {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .soundcloud:hover {
@@ -41,13 +41,19 @@
 }
 
 .image {
-  width: 200px;
+  width: 180px;
   border-radius: 10px;
 }
 
 ul {
   list-style: none;
   float: right;
+  height: 100%;
+  margin-right: 20px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .image:hover {
