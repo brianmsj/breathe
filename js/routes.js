@@ -5,5 +5,5 @@ import BackgroundScene from './containers/background_scene';
 import Video from './components/video';
 
 export default (
-  <Route path='/' component={Video} />
+  <Route path='/' component={BackgroundScene} />
 );
