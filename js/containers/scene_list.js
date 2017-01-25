@@ -38,7 +38,7 @@ export class SceneList extends Component {
           $('.scene-list').fadeOut()
           $('html').css({cursor: 'none'});
           fadeInBuffer = true;
-        }, 2000)
+        }, 5000)
       });
     });
   }

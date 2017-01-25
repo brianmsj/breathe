@@ -35,7 +35,7 @@ export default class SoundCloud extends React.Component {
           $('.soundcloud').fadeOut()
           $('html').css({cursor: 'none'});
           fadeInBuffer = true;
-        }, 2000)
+        }, 5000)
       });
     });
   }
