@@ -3,7 +3,8 @@ import React from 'react';
 export default function Welcome() {
   return (
     <div>
-      Welcome to Breathe!!!
+      <h1>Welcome to Breathe</h1>
+      <p>Take a moment to relax and clear your mind</p>
     </div>
   )
 }
