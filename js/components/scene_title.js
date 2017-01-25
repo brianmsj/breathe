@@ -22,7 +22,7 @@ export default class SceneTitle extends Component {
 
   render() {
     return (
-      <h1 className="scene-title">{this.props.title}</h1>
+      <h1 className="scene-title animated fadeIn">{this.props.title}</h1>
     );
   };
 }
