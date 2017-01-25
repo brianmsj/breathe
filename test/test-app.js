@@ -1,7 +1,6 @@
 // import React from 'react';
 // import TestUtils from 'react-addons-test-utils';
 // import chai from 'chai';
-// import $ from 'jquery';
 
 // const should = chai.should();
 

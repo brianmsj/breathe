@@ -100,7 +100,7 @@ li {
 
 
 @media only screen and (max-width: 600px) {
-  .main-container {
+  .app-container {
     display: none;
   }
 

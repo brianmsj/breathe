@@ -7,11 +7,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="app-container">
-        <div className="main-container">
-          <SceneList />
-          <BackgroundScene />
-          <Welcome />
-        </div>
+        <SceneList />
+        <BackgroundScene />
+        <Welcome />
       </div>
     )
   }
