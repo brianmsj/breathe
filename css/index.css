@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 .video-background {
   background: #000;
@@ -66,5 +67,4 @@ li {
   margin-left: 20px;
   color: white;
   text-shadow: 1px 1px 10px #ffffff;
-  font-family: 'Raleway', sans-serif;
 }
