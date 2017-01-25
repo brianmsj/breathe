@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 .video-background {
   background: #000;
@@ -50,6 +51,7 @@ ul {
   float: right;
   height: 100%;
   margin-right: 20px;
+  display: inline-block;
 }
 
 li {
@@ -66,5 +68,35 @@ li {
   margin-left: 20px;
   color: white;
   text-shadow: 1px 1px 10px #ffffff;
-  font-family: 'Raleway', sans-serif;
+}
+
+.welcome {
+  font-weight: normal;
+  color: white;
+  text-shadow: 1px 1px 10px #ffffff;
+}
+
+.welcome-h1 {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.welcome-p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.breathe {
+  font-weight: bold;
+}
+
+.welcome-container {
+  text-align: center;
+  margin-left: 200px;
+}
+
+@media only screen and (max-width: 580px) {
+  .welcome-container {
+    margin-left: 0;
+  }
 }

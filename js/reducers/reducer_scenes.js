@@ -13,7 +13,7 @@ export default function() {
       image: 'http://i.imgur.com/kpzUqN6.jpg?1'
     },
     {
-      title: 'Breathe',
+      title: 'Existential',
       youTubeURL: 'https://www.youtube.com/embed/Y5aaIsxLrvE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Y5aaIsxLrvE',
       soundCloudID: '304136606',
       image: 'http://i.imgur.com/CV63WkA.jpg?1'

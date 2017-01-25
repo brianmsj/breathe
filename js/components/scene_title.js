@@ -25,7 +25,7 @@ export default class SceneTitle extends Component {
           $('.scene-title').fadeOut()
           $('html').css({cursor: 'none'});
           fadeInBuffer = true;
-        }, 2000)
+        }, 5000)
       });
     });
   };
