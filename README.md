@@ -15,5 +15,5 @@ Users are able to choose between 4 different scenes, each with its own accompany
 * jQuery
 * React
 * Redux
-* React-Redux
 * React-Router
+* Continuous integration and deployment with <a href="https://travis-ci.org/">Travis CI</a>
