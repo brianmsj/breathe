@@ -26,4 +26,9 @@ After 5 second of inactivity, all components (including the mouse but excluding 
 * <a href="http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery">http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery</a>
 * <a href="http://stackoverflow.com/users/708700/michael-b">Michael_B</a>
 
+#### FullScreen YouTube Video Background In Pure CSS
+* <a href="http://thenewcode.com/">Dudley Storey</a>
+* <a href="https://codepen.io/dudleystorey/pen/PZyMrd">CodePen</a>
+* Used under <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/ca/">Attribution-NonCommercial-ShareAlike 2.5 Canada</a>
+
 #### All videos from <a href="https://videos.pexels.com/">Pexels</a> under the <a href="https://videos.pexels.com/video-license">Creative Commons Zero (CC0) license</a>.
