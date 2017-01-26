@@ -11,7 +11,6 @@ Users are able to choose between 4 different scenes, each with its own accompany
 After 5 second of inactivity, all components (including the mouse but excluding the video) will fade out to really help immerse the user in the currently selected scene.
 
 Due to the experimental design of the application and the inability of mobile devices to autoload video and audio media, an image that kindly requests the user to view the application on a larger viewport has been implemented below a width of 600px.
-<img src="./images/mobile_message.JPG">
 
 ## Technology
 * HTML5
