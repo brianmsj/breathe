@@ -7,7 +7,7 @@ It's no secret that meditation is beneficial to our health. In fact, a recent st
 
 ## How it Works
 Users are able to choose between 4 different scenes, each with its own accompanying audio. Although the video is embedded from YouTube and the audio is embedded from SoundCloud, the files were handpicked and carefully edited to provide the user with a seamless experience. After 5 second of inactivity, all components (including the mouse but excluding the video) will fade out to really help immerse the user in the currently selected scene.
-<img src="./images/breathe_wireframe.jpg">
+<img src="./images/breathe_wireframe.JPG">
 
 ## Technology
 * HTML5
