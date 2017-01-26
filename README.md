@@ -19,7 +19,9 @@ Users are able to choose between 4 different scenes, each with its own accompany
 * <a href="https://mochajs.org/">Mocha</a> + <a href="http://chaijs.com/">Chai</a> (testing)
 * Continuous integration and deployment with <a href="https://travis-ci.org/">Travis CI</a>
 
-## Code Attributions
-### Fade out mouse cursor when inactive (with jQuery)
+## Attributions
+#### Fade out mouse cursor when inactive (with jQuery)
 * <a href="http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery">http://stackoverflow.com/questions/15532423/fade-out-mouse-cursor-when-inactive-with-jquery</a>
 * <a href="http://stackoverflow.com/users/708700/michael-b">Michael_B</a>
+
+#### All videos from <a href="https://videos.pexels.com/">Pexels</a> under the <a href="https://videos.pexels.com/video-license">Creative Commons Zero (CC0) license</a>.
