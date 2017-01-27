@@ -3,20 +3,20 @@
 <img src="./images/Breathe_Snapshots.jpg">
 
 ## Getting started
-### Install
+### Installation
 ```
-git clone https://github.com/NOUX-NOVA/breathe.git
-cd breathe
-npm install
+>   git clone https://github.com/NOUX-NOVA/breathe.git
+>   cd breathe
+>   npm install
 ```
-### Run
+### Launching
 ```
-npm run dev
+>   npm run dev
 ```
 Then open `localhost:8000` in a browser.
-### Test
+### Testing
 ```
-npm run test
+>   npm run test
 ```
 
 
