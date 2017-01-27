@@ -3,7 +3,7 @@
 <img src="./images/Breathe_Snapshots.jpg">
 
 ## Getting started
-### Installation
+### Installing
 ```
 >   git clone https://github.com/NOUX-NOVA/breathe.git
 >   cd breathe
@@ -13,7 +13,7 @@
 ```
 >   npm run dev
 ```
-Then open `localhost:8000` in a browser.
+Then open [`localhost:8000`](http://localhost:8000) in a browser.
 ### Testing
 ```
 >   npm run test
@@ -41,6 +41,10 @@ Due to the experimental design of the application and the inability of mobile de
 * React-Router
 * <a href="https://mochajs.org/">Mocha</a> + <a href="http://chaijs.com/">Chai</a> (testing)
 * Continuous integration and deployment with <a href="https://travis-ci.org/">Travis CI</a>
+
+### API
+* YouTube
+* SoundCloud
 
 ## Attributions
 #### Fade out mouse cursor when inactive (with jQuery)
