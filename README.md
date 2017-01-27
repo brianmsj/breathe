@@ -4,11 +4,11 @@
 
 ## Getting started
 ### Install
-<code>
-git clone https://github.com/NOUX-NOVA/breathe.git<br>
-cd breathe<br>
+```
+git clone https://github.com/NOUX-NOVA/breathe.git
+cd breathe
 npm install
-</code>
+```
 
 
 ## About
