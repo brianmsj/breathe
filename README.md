@@ -9,6 +9,15 @@ git clone https://github.com/NOUX-NOVA/breathe.git
 cd breathe
 npm install
 ```
+### Run
+```
+npm run dev
+```
+Then open `localhost:8000` in a browser.
+### Test
+```
+npm run test
+```
 
 
 ## About
