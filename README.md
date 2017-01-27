@@ -2,6 +2,15 @@
 <a href="https://breathe-app.herokuapp.com/">Breathe</a> is an experimental, single-page application focused on helping users relax, meditate, and find peace of mind.
 <img src="./images/Breathe_Snapshots.jpg">
 
+## Getting started
+### Install
+<code>
+git clone https://github.com/NOUX-NOVA/breathe.git
+cd breathe
+npm install
+</code>
+
+
 ## About
 It's no secret that meditation is beneficial to our health. In fact, a recent study from <a href="http://news.harvard.edu/gazette/story/2011/01/eight-weeks-to-a-better-brain/">Harvard</a> showed that meditation can lead to changes in brain structure that provide cognitive and psychological benefits. Breathe is an experimental application that seamlessly combines API data from YouTube and SoundCloud to help the user find peace of mind by presenting relaxing imagery and sounds in full-screen format.
 
@@ -10,7 +19,8 @@ Users are able to choose between 4 different scenes, each with its own accompany
 <img src="./images/breathe_wireframe.JPG">
 After 5 second of inactivity, all components (including the mouse but excluding the video) will fade out to really help immerse the user in the currently selected scene.
 
-(<em>Due to the experimental design of the application and the inability of mobile devices to autoload video and audio media, an image that kindly requests the user to view the application on a larger viewport has been implemented below a width of 600px.</em>)
+### Caveat
+Due to the experimental design of the application and the inability of mobile devices to autoload video and audio media, an image that kindly requests the user to view the application on a larger viewport has been implemented below a width of 600px.
 
 ## Technology
 * HTML5
