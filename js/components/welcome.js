@@ -15,7 +15,7 @@ export default class Welcome extends Component {
 
         timer = setTimeout(function () {
           $('.welcome-container').fadeOut()
-        }, 5000)
+        }, 3000)
       });
     });
   }

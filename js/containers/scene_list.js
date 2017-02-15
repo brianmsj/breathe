@@ -29,7 +29,7 @@ export class SceneList extends Component {
 
         timer = setTimeout(function () {
           $('.scene-list').fadeOut()
-        }, 5000)
+        }, 3000)
       });
     });
   }

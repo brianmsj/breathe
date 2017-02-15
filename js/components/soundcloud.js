@@ -28,7 +28,7 @@ export default class SoundCloud extends React.Component {
         timer = setTimeout(function () {
           $('.soundcloud').fadeOut()
           $('html').css({cursor: 'none'});
-        }, 5000)
+        }, 3000)
       });
     });
   }

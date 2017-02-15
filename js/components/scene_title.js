@@ -15,7 +15,7 @@ export default class SceneTitle extends Component {
 
         timer = setTimeout(function () {
           $('.scene-title').fadeOut()
-        }, 5000)
+        }, 3000)
       });
     });
   }
