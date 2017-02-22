@@ -29,6 +29,18 @@
   .video-foreground { width: 300%; left: -100%; }
 }
 
+.about {
+  text-align: left;
+  width: 300px;
+  position: relative;
+  right: 170px;
+  top: 25px;
+}
+
+.about p {
+  font-size: 17px;
+}
+
 .scene-list:hover {
   cursor: pointer;
 }
